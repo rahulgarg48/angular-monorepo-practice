@@ -1,6 +1,6 @@
 import { Component, inject, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Button } from '../../../shared/ui/button/button';
+import { Button } from 'shared-ui';
 import {AuthService} from '../../../shared/services/auth.service';
 import { User } from '../../../shared/models/user.model';
 
